@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8059695510f5e842a5b60d332d10dec, type: 3}
+  m_Name: AppInitSettings
+  m_EditorClassIdentifier: 
+  observerIPs:
+  - connectionID: 0
+    IPv4: 88.99.244.36
+    ForceUsername: 
+    BinaryDomain: ringrage-mob1
+  - connectionID: 1
+    IPv4: 88.99.198.202
+    ForceUsername: 
+    BinaryDomain: game-legacy
+  - connectionID: 2
+    IPv4: 88.99.198.202
+    ForceUsername: 
+    BinaryDomain: game-legacy
+  - connectionID: 3
+    IPv4: 127.0.0.1
+    ForceUsername: 
+    BinaryDomain: game-legacy
+  - connectionID: 4
+    IPv4: 192.168.8.186
+    ForceUsername: 
+    BinaryDomain: 
+  ObserverConnection: 3
+  snapshotExpireTime: 300
+  snapshotDiffTime: 100
+  UseLocalBinary: 1
+  EnableLogs: 1
+  EnableAnalytics: 0
+  EnableColliders: 0
+  UserName: 
+  UserIndex: 
+  campaign:
+    index: 3
+    mission: 1

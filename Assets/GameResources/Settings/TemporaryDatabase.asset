@@ -1,0 +1,1730 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e30e1dd9ff1fa4a8bf5cf493397c5e, type: 3}
+  m_Name: TemporaryDatabase
+  m_EditorClassIdentifier: 
+  Stock:
+  - ID: 1
+    Name: Glory
+    activeImage: {fileID: 21300000, guid: e1bed292cbbcf2e4a969a27a2e4a1d3e, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 0
+    Type: 1
+  - ID: 2
+    Name: Gold
+    activeImage: {fileID: 21300000, guid: 38aff9314b235784ca48bc22a985cef9, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 1
+  - ID: 3
+    Name: Gems
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 1
+  - ID: 1
+    Name: Gala
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 2
+  - ID: 2
+    Name: Zak
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 2
+  - ID: 1
+    Name: Goblin Squad
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 2
+    Name: Succuba
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 3
+    Name: Orc
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 4
+    Name: Arachne
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 5
+    Name: Stone Golem
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 6
+    Name: Satyr
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 7
+    Name: Witch
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 8
+    Name: Swordman
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 9
+    Name: None
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 12
+    Name: Griffin
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 13
+    Name: Gnoll
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 14
+    Name: None
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 15
+    Name: Dragon
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 21
+    Name: Skeleton Squad
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 22
+    Name: Minotaur
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 23
+    Name: Imp Squad
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 24
+    Name: Demon
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 25
+    Name: 'centaur '
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 26
+    Name: Dendroid
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  - ID: 27
+    Name: Ogre
+    activeImage: {fileID: 21300000, guid: 229767ec247d67244afb7faf6a31c0e3, type: 3}
+    nonActiveImage: {fileID: 0}
+    IsForSale: 1
+    Type: 0
+  CardsStock:
+  - sid: 0
+    cardClass: 0
+    CurrentLevel: 2
+    Levels: []
+  - sid: 2
+    cardClass: 0
+    CurrentLevel: 2
+    Levels:
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+  - sid: 3
+    cardClass: 0
+    CurrentLevel: 2
+    Levels:
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+  - sid: 4
+    cardClass: 2
+    CurrentLevel: 2
+    Levels:
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+  - sid: 5
+    cardClass: 3
+    CurrentLevel: 2
+    Levels:
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+  - sid: 6
+    cardClass: 0
+    CurrentLevel: 2
+    Levels:
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+  - sid: 7
+    cardClass: 1
+    CurrentLevel: 2
+    Levels:
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+  - sid: 8
+    cardClass: 0
+    CurrentLevel: 2
+    Levels:
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+  - sid: 9
+    cardClass: 2
+    CurrentLevel: 2
+    Levels:
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+  - sid: 12
+    cardClass: 0
+    CurrentLevel: 2
+    Levels:
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+  - sid: 13
+    cardClass: 1
+    CurrentLevel: 2
+    Levels:
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+  - sid: 14
+    cardClass: 1
+    CurrentLevel: 2
+    Levels:
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+  - sid: 15
+    cardClass: 2
+    CurrentLevel: 2
+    Levels:
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+  - sid: 21
+    cardClass: 2
+    CurrentLevel: 2
+    Levels:
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 154
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 0
+      - Param: 9
+        ParamValue: 1
+  - sid: 1
+    cardClass: 0
+    CurrentLevel: 2
+    Levels:
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 500
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 190
+      - Param: 9
+        ParamValue: 6
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 500
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 190
+      - Param: 9
+        ParamValue: 6
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 500
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 190
+      - Param: 9
+        ParamValue: 6
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 500
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 190
+      - Param: 9
+        ParamValue: 6
+    - Level: 1
+      Params:
+      - Param: 0
+        ParamValue: 190
+      - Param: 1
+        ParamValue: 1.3
+      - Param: 2
+        ParamValue: 143
+      - Param: 3
+        ParamValue: 0
+      - Param: 5
+        ParamValue: 500
+      - Param: 11
+        ParamValue: 0
+      - Param: 7
+        ParamValue: 190
+      - Param: 9
+        ParamValue: 6
+  ParamStaticDatas:
+  - Param: 0
+    Image: {fileID: 21300000, guid: e49b9e54ea11f054ea3e12533b81221a, type: 3}
+    ParamName: Damage
+    ValuePrefix: 
+    HasValue: 1
+    Upgradeable: 1
+    Option: 
+    Ending: 
+  - Param: 1
+    Image: {fileID: 21300000, guid: e49b9e54ea11f054ea3e12533b81221a, type: 3}
+    ParamName: Attack Speed
+    ValuePrefix: 
+    HasValue: 1
+    Upgradeable: 0
+    Option: 
+    Ending: sec
+  - Param: 2
+    Image: {fileID: 21300000, guid: 4ff37fdb16028c143a5dd398ddb144fa, type: 3}
+    ParamName: Damage per second
+    ValuePrefix: 
+    HasValue: 1
+    Upgradeable: 1
+    Option: 
+    Ending: 
+  - Param: 3
+    Image: {fileID: 21300000, guid: cf9d64b5c58fcdf4e8bc070910bc3cd0, type: 3}
+    ParamName: Attack Type
+    ValuePrefix: Mellee
+    HasValue: 1
+    Upgradeable: 0
+    Option: 
+    Ending: 
+  - Param: 4
+    Image: {fileID: 21300000, guid: bd467cb794aeb174b834676a79ff3f3a, type: 3}
+    ParamName: Attack Type
+    ValuePrefix: 'Range '
+    HasValue: 1
+    Upgradeable: 0
+    Option: 
+    Ending: 
+  - Param: 5
+    Image: {fileID: 21300000, guid: cb94b0d2c5ee3e44b8f3015b3e322dbb, type: 3}
+    ParamName: HitPoint
+    ValuePrefix: 
+    HasValue: 1
+    Upgradeable: 1
+    Option: 
+    Ending: 
+  - Param: 10
+    Image: {fileID: 21300000, guid: 3ad932d58f5b8f44b876be3ed4dcfe3a, type: 3}
+    ParamName: Targets
+    ValuePrefix: Any
+    HasValue: 0
+    Upgradeable: 0
+    Option: 
+    Ending: 
+  - Param: 7
+    Image: {fileID: 21300000, guid: 5b15962bf2a0ad84cbf152d2d9b09c30, type: 3}
+    ParamName: Movement type
+    ValuePrefix: Land
+    HasValue: 0
+    Upgradeable: 0
+    Option: 
+    Ending: 
+  - Param: 8
+    Image: {fileID: 21300000, guid: 5b15962bf2a0ad84cbf152d2d9b09c30, type: 3}
+    ParamName: Movement Type
+    ValuePrefix: Fly
+    HasValue: 0
+    Upgradeable: 0
+    Option: 
+    Ending: 
+  - Param: 9
+    Image: {fileID: 21300000, guid: 884ace825f6658544b4c71f205233aeb, type: 3}
+    ParamName: Count
+    ValuePrefix: x
+    HasValue: 1
+    Upgradeable: 0
+    Option: 
+    Ending: 
+  - Param: 11
+    Image: {fileID: 21300000, guid: 3ad932d58f5b8f44b876be3ed4dcfe3a, type: 3}
+    ParamName: Targets
+    ValuePrefix: Land
+    HasValue: 0
+    Upgradeable: 0
+    Option: 
+    Ending: 
+  - Param: 12
+    Image: {fileID: 21300000, guid: 3ad932d58f5b8f44b876be3ed4dcfe3a, type: 3}
+    ParamName: Target type
+    ValuePrefix: Air
+    HasValue: 0
+    Upgradeable: 0
+    Option: 
+    Ending: 
+  - Param: 13
+    Image: {fileID: 21300000, guid: 5b15962bf2a0ad84cbf152d2d9b09c30, type: 3}
+    ParamName: Move Speed
+    ValuePrefix: 
+    HasValue: 1
+    Upgradeable: 0
+    Option: 
+    Ending: 
+  - Param: 6
+    Image: {fileID: 21300000, guid: 3ad932d58f5b8f44b876be3ed4dcfe3a, type: 3}
+    ParamName: Evasion
+    ValuePrefix: 
+    HasValue: 1
+    Upgradeable: 0
+    Option: 
+    Ending: 
+  CardClassData:
+  - cardClass: 0
+    MainColor: {r: 0.6431373, g: 0.7921569, b: 0.8235294, a: 1}
+    LevelImageBig: {fileID: 21300000, guid: 27d6d538a07597c46bc545995c89f7d1, type: 3}
+    BarContentImageBig: {fileID: 21300000, guid: 878773be131047e47a4ea1575ef1103f,
+      type: 3}
+    LevelImageSmall: {fileID: 21300000, guid: 27d6d538a07597c46bc545995c89f7d1, type: 3}
+    BarContentImageSmall: {fileID: 21300000, guid: 878773be131047e47a4ea1575ef1103f,
+      type: 3}
+    RarityImage: {fileID: 21300000, guid: c35b7115f4de00047bfdcd80b9ba62af, type: 3}
+    TextColor: {r: 0.6431373, g: 0.7921569, b: 0.8235294, a: 1}
+    Text: Common
+  - cardClass: 1
+    MainColor: {r: 0, g: 0.6117647, b: 1, a: 1}
+    LevelImageBig: {fileID: 21300000, guid: 5da408fc344a0134f89d3d99c73fe197, type: 3}
+    BarContentImageBig: {fileID: 21300000, guid: ae1eba5f790638643afde17f3e776c4f,
+      type: 3}
+    LevelImageSmall: {fileID: 21300000, guid: 5da408fc344a0134f89d3d99c73fe197, type: 3}
+    BarContentImageSmall: {fileID: 21300000, guid: ae1eba5f790638643afde17f3e776c4f,
+      type: 3}
+    RarityImage: {fileID: 21300000, guid: fcb6ab19ae4db8e48ad431c3dd5413a5, type: 3}
+    TextColor: {r: 0, g: 0.6117647, b: 1, a: 1}
+    Text: Rare
+  - cardClass: 2
+    MainColor: {r: 0.7019608, g: 0.27058825, b: 1, a: 1}
+    LevelImageBig: {fileID: 21300000, guid: 47a764447aff02842bc5bf8074889f0a, type: 3}
+    BarContentImageBig: {fileID: 21300000, guid: 1ac68aabf389fd645968d7d6641e2e8c,
+      type: 3}
+    LevelImageSmall: {fileID: 21300000, guid: 47a764447aff02842bc5bf8074889f0a, type: 3}
+    BarContentImageSmall: {fileID: 21300000, guid: 1ac68aabf389fd645968d7d6641e2e8c,
+      type: 3}
+    RarityImage: {fileID: 21300000, guid: 7091f8a0cc93a824588058a22496a7b5, type: 3}
+    TextColor: {r: 0.7019608, g: 0.27058825, b: 1, a: 1}
+    Text: Epic
+  - cardClass: 3
+    MainColor: {r: 1, g: 0.8235294, b: 0, a: 1}
+    LevelImageBig: {fileID: 21300000, guid: 7767d2c2948e26b4896f1a1d0f095dc6, type: 3}
+    BarContentImageBig: {fileID: 21300000, guid: bf0b1ecff77a36c4fb555069878ef219,
+      type: 3}
+    LevelImageSmall: {fileID: 21300000, guid: 7767d2c2948e26b4896f1a1d0f095dc6, type: 3}
+    BarContentImageSmall: {fileID: 21300000, guid: bf0b1ecff77a36c4fb555069878ef219,
+      type: 3}
+    RarityImage: {fileID: 21300000, guid: 7212443ec8b64134795a125aaa70774a, type: 3}
+    TextColor: {r: 1, g: 0.8235294, b: 0, a: 1}
+    Text: Legendary
+  FilledBarImage: {fileID: 21300000, guid: d86c7684ab337a44cb84e8a75704fa70, type: 3}
+  FilledBarImageSmall: {fileID: 21300000, guid: d86c7684ab337a44cb84e8a75704fa70,
+    type: 3}
+  cardImages:
+  - sid: 1
+    small: {fileID: 21300000, guid: 23e02fbc8d1a4f240b010741664cb06a, type: 3}
+    big: {fileID: 21300000, guid: 5660b4a70dc82a14dab58328052657ac, type: 3}
+  - sid: 2
+    small: {fileID: 21300000, guid: 71511c4aac53d324d80ad43f043df60a, type: 3}
+    big: {fileID: 21300000, guid: 71511c4aac53d324d80ad43f043df60a, type: 3}
+  - sid: 3
+    small: {fileID: 21300000, guid: 41c7d482e3e45474c9c2619ed3d8f38e, type: 3}
+    big: {fileID: 21300000, guid: 41c7d482e3e45474c9c2619ed3d8f38e, type: 3}
+  - sid: 4
+    small: {fileID: 21300000, guid: c36912809cef2c54da748352bae97d1b, type: 3}
+    big: {fileID: 21300000, guid: c36912809cef2c54da748352bae97d1b, type: 3}
+  - sid: 5
+    small: {fileID: 21300000, guid: 1902990a07925b84687c1e88684e4074, type: 3}
+    big: {fileID: 21300000, guid: 1902990a07925b84687c1e88684e4074, type: 3}
+  - sid: 6
+    small: {fileID: 21300000, guid: 59a6099cea34c8b46b468791bba00b52, type: 3}
+    big: {fileID: 21300000, guid: 59a6099cea34c8b46b468791bba00b52, type: 3}
+  - sid: 7
+    small: {fileID: 21300000, guid: ca4e737927b03cc4fb578494c2d18c52, type: 3}
+    big: {fileID: 21300000, guid: ca4e737927b03cc4fb578494c2d18c52, type: 3}
+  - sid: 8
+    small: {fileID: 21300000, guid: 07eb838d7b1957440bf00dc962c00f17, type: 3}
+    big: {fileID: 21300000, guid: 07eb838d7b1957440bf00dc962c00f17, type: 3}
+  - sid: 9
+    small: {fileID: 21300000, guid: b7c6bf5343c25504084fe4a0a3260f0e, type: 3}
+    big: {fileID: 21300000, guid: b7c6bf5343c25504084fe4a0a3260f0e, type: 3}
+  - sid: 12
+    small: {fileID: 21300000, guid: c27dc16bea615e341b425a7e76a6beb6, type: 3}
+    big: {fileID: 21300000, guid: c27dc16bea615e341b425a7e76a6beb6, type: 3}
+  - sid: 13
+    small: {fileID: 21300000, guid: 3bd302106e69ebe4aab32f28cad76a8a, type: 3}
+    big: {fileID: 21300000, guid: 3bd302106e69ebe4aab32f28cad76a8a, type: 3}
+  - sid: 14
+    small: {fileID: 21300000, guid: 0e646e584ca5d5d42a805e0aeffde130, type: 3}
+    big: {fileID: 21300000, guid: 89c3f419ee4b58f4d9a2d7925e059539, type: 3}
+  - sid: 15
+    small: {fileID: 21300000, guid: 94f59e88226b6ce47829313edaf2e9fc, type: 3}
+    big: {fileID: 21300000, guid: 94f59e88226b6ce47829313edaf2e9fc, type: 3}
+  - sid: 21
+    small: {fileID: 21300000, guid: cd71382f259dfea42b9367ceccf2f737, type: 3}
+    big: {fileID: 21300000, guid: cd71382f259dfea42b9367ceccf2f737, type: 3}
+  - sid: 22
+    small: {fileID: 21300000, guid: f1d0ce8812cf8554398cdb125cd03d81, type: 3}
+    big: {fileID: 21300000, guid: f1d0ce8812cf8554398cdb125cd03d81, type: 3}
+  - sid: 23
+    small: {fileID: 21300000, guid: 5dff9d1d5bbf17047836f48baeed8c27, type: 3}
+    big: {fileID: 21300000, guid: c0f6d484ec5ed88469a2a336c1af214f, type: 3}
+  - sid: 24
+    small: {fileID: 21300000, guid: 17ddfffcf4c28ab41b392f17c5878453, type: 3}
+    big: {fileID: 21300000, guid: 17ddfffcf4c28ab41b392f17c5878453, type: 3}
+  - sid: 25
+    small: {fileID: 21300000, guid: 5dff9d1d5bbf17047836f48baeed8c27, type: 3}
+    big: {fileID: 21300000, guid: c0f6d484ec5ed88469a2a336c1af214f, type: 3}
+  - sid: 26
+    small: {fileID: 21300000, guid: 5dff9d1d5bbf17047836f48baeed8c27, type: 3}
+    big: {fileID: 21300000, guid: c0f6d484ec5ed88469a2a336c1af214f, type: 3}
+  - sid: 27
+    small: {fileID: 21300000, guid: 1421caae32ff8404b939bacf65b40cd1, type: 3}
+    big: {fileID: 21300000, guid: 1421caae32ff8404b939bacf65b40cd1, type: 3}
+  - sid: 28
+    small: {fileID: 21300000, guid: 5dff9d1d5bbf17047836f48baeed8c27, type: 3}
+    big: {fileID: 21300000, guid: c0f6d484ec5ed88469a2a336c1af214f, type: 3}
+  - sid: 29
+    small: {fileID: 21300000, guid: 473cee0a2dbe4fd4e990c1cdc422d0c2, type: 3}
+    big: {fileID: 21300000, guid: 473cee0a2dbe4fd4e990c1cdc422d0c2, type: 3}
+  - sid: 34
+    small: {fileID: 21300000, guid: fbd551911a6c94e4ca46b590b58b3167, type: 3}
+    big: {fileID: 21300000, guid: fbd551911a6c94e4ca46b590b58b3167, type: 3}
+  - sid: 30
+    small: {fileID: 21300000, guid: 4c4bb7f04ccf6f74abd5c18a4e74831c, type: 3}
+    big: {fileID: 21300000, guid: 4c4bb7f04ccf6f74abd5c18a4e74831c, type: 3}
+  - sid: 36
+    small: {fileID: 21300000, guid: 23e02fbc8d1a4f240b010741664cb06a, type: 3}
+    big: {fileID: 21300000, guid: 23e02fbc8d1a4f240b010741664cb06a, type: 3}
+  frameImages:
+  - cardSizeType: 0
+    RegularImage: {fileID: 21300000, guid: 5482de29cab34e34faf47ca9788d9d19, type: 3}
+    SelectedImage: {fileID: 21300000, guid: 5aafbe9d423ec3d45b8c41b284ffc220, type: 3}
+  - cardSizeType: 1
+    RegularImage: {fileID: 21300000, guid: 5482de29cab34e34faf47ca9788d9d19, type: 3}
+    SelectedImage: {fileID: 21300000, guid: 5aafbe9d423ec3d45b8c41b284ffc220, type: 3}

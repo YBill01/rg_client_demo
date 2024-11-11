@@ -1,0 +1,185 @@
+using System;
+using System.Collections.Generic;
+using Unity.Collections;
+
+using Unity.Entities;
+using Unity.Mathematics;
+using UnityEngine;
+
+using Legacy.Snapshot;
+
+namespace Legacy.Battle
+{
+
+	public enum DatabaseEntityType
+	{
+		Entity,
+		Hero,
+		Minion,
+
+		Other
+	}
+
+	public interface IDatabase
+	{
+		void Assign(EntityCommandBuffer buffer, Entity entity);
+	}
+
+	public struct DatabaseEntity
+	{
+		public string Prefab;
+		public DatabaseEntityType Type;
+		public List<IDatabase> Components;
+	}
+
+	public class DatabaseUnits
+	{
+		static DatabaseUnits _instance = null;
+		public static DatabaseUnits Instance
+		{
+			get
+			{
+				if (_instance == null)
+					_instance = new DatabaseUnits();
+				return _instance;
+			}
+		}
+
+		private readonly Dictionary<uint, DatabaseEntity> _entities;
+		public DatabaseUnits()
+		{
+			_entities = new Dictionary<uint, DatabaseEntity>();
+
+			_entities.Add(1, new DatabaseEntity
+			{
+				Type = DatabaseEntityType.Entity,
+				Prefab = "Prefabs/Interface/BattleInterface",
+				Components = new List<IDatabase>()
+				{
+
+				}
+			});
+
+			_entities.Add(2, new DatabaseEntity
+			{
+				Prefab = "Prefabs/Minions/m1",
+				Type = DatabaseEntityType.Minion,
+				Components = new List<IDatabase>()
+				{
+					new MinionData
+					{
+						Health = 30,
+						Collider = 0.6f
+					},
+					new AttackData
+					{
+						Type = AttackType.Mellee,
+						AggroRadius = 1f,
+						AttackDamage = 9,
+						AttackDuration = 2.2f,
+						AttackRadius = 0.7f,
+						HittingTime = 0.5f,
+						AttackCharge = 2.3f
+					},
+					new MovementData
+					{
+						Speed = 0.6f
+					}
+				}
+			});
+
+			_entities.Add(3, new DatabaseEntity
+			{
+				Prefab = "Prefabs/Minions/m2",
+				Type = DatabaseEntityType.Minion,
+				Components = new List<IDatabase>()
+				{
+					new MinionData
+					{
+						Health = 30,
+						Collider = 0.6f
+					},
+					new AttackData
+					{
+						Type = AttackType.Mellee,
+						AggroRadius = 1f,
+						AttackDamage = 9,
+						AttackDuration = 2.2f,
+						AttackCharge = 2.3f,
+						AttackRadius = 0.7f,
+						HittingTime = 0.5f,
+					},
+					new MovementData
+					{
+						Speed = 0.6f
+					}
+				}
+			});
+
+			// hero1
+			_entities.Add(4, new DatabaseEntity
+			{
+				Prefab = "Prefabs/Heroes/hero1",
+				Type = DatabaseEntityType.Hero,
+				Components = new List<IDatabase>()
+				{
+					new MinionData
+					{
+						Health = 100,
+						Collider = 1f
+					},
+					new AttackData
+					{
+						Type = AttackType.Range,
+						AggroRadius = 6,
+						AttackDamage = 20,
+						AttackDuration = 3f,
+						AttackRadius = 6,
+						HittingTime = 0.1f,
+						BulletSpeed = 20f,
+						BulletType = BulletType.Bullet
+					}					
+				}
+			});
+
+			// hero2
+			_entities.Add(5, new DatabaseEntity
+			{
+				Prefab = "Prefabs/Heroes/hero2",
+				Type = DatabaseEntityType.Hero,
+				Components = new List<IDatabase>()
+				{
+					new MinionData
+					{
+						Health = 100,
+						Collider = 2f
+					},
+					new AttackData
+					{
+						Type = AttackType.Range,
+						AggroRadius = 6,
+						AttackDamage = 20,
+						AttackDuration = 3f,
+						AttackRadius = 6,
+						HittingTime = 0.1f,
+						BulletSpeed = 20f,
+						BulletType = BulletType.Bullet
+					}
+				}
+			});
+		}
+
+		public bool Get(uint index, out DatabaseEntity unit)
+		{
+			unit = default;
+			if (_entities.ContainsKey(index))
+			{
+				unit = _entities[index];
+				return true;
+			}
+			return false;
+		}
+	}
+
+
+}

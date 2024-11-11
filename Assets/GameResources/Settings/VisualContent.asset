@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b367b1c43e16f94389318832f0c3ae1, type: 3}
+  m_Name: VisualContent
+  m_EditorClassIdentifier: 
+  CardIconsAtlas: {fileID: 4343727234628468602, guid: 2335511d0f812cf43b8425462fea8a8f,
+    type: 2}
+  BankCurrenciesAtlas: {fileID: 4343727234628468602, guid: d785e3c121442544eac42d4d1eaa7bbf,
+    type: 2}
+  SkillsIconsAtlas: {fileID: 4343727234628468602, guid: d1ea5a3be6854b94d8b2c23c7b554955,
+    type: 2}
+  GrayScaleMaterial: {fileID: 2100000, guid: c2f7c8a4dd75d7a4c9fc35a3fd68dae3, type: 2}
+  SpawnUnitMaterial: {fileID: 2100000, guid: f29f908cfd329644dadce9f1bb784db1, type: 2}
+  DamageMaterialsEnemy:
+  - {fileID: 2100000, guid: 1c101ffaebdc4eb40b0a4b020fe3f3b6, type: 2}
+  - {fileID: 2100000, guid: db36b903b3596f544b1e8a60e38679b2, type: 2}
+  - {fileID: 2100000, guid: c3dc991d2048c0b43962e920b766e8fd, type: 2}
+  - {fileID: 2100000, guid: 8faf5ca3778427b46adcb7e392b98bd2, type: 2}
+  DamageMaterialsEnemyHero:
+  - {fileID: 2100000, guid: 13474c76fa676084a8fdbcd0b07b7c34, type: 2}
+  - {fileID: 2100000, guid: 174d88e30da609b47af9f68712a08b0b, type: 2}
+  DamageMaterialsAlly:
+  - {fileID: 2100000, guid: 3ead84a94367b0f46971f703072ef851, type: 2}
+  - {fileID: 2100000, guid: 74eac4ad9c58cde4f86ce0560d2f8a79, type: 2}
+  - {fileID: 2100000, guid: eb416f30dd489f44fb739a84fdeeb94d, type: 2}
+  - {fileID: 2100000, guid: d4b9c3d10d2744a48a145abaa747dbaf, type: 2}
+  DamageMaterialsAllyHero:
+  - {fileID: 2100000, guid: ae653142b53298c4ca0cd4eb6ad42607, type: 2}
+  - {fileID: 2100000, guid: d45903a9f9b595e4a8a0aca471adfb90, type: 2}
+  RewardMaterials:
+    Soft: {fileID: 2100000, guid: 0d5c90af44a61b3458b7f04489eb01a7, type: 2}
+    Hard: {fileID: 2100000, guid: e56a678ae06dfab459175b0675ddc1e6, type: 2}
+    Shards: {fileID: 2100000, guid: d21e1066593e88b42aa47d95d827764b, type: 2}
+    Cards: {fileID: 2100000, guid: e56a678ae06dfab459175b0675ddc1e6, type: 2}
+    Exp: {fileID: 2100000, guid: fa239fe594e92df4c907b96644511914, type: 2}
+    HeroExp: {fileID: 2100000, guid: 9629a8a63b7044945b8dabbaed92a1f4, type: 2}
+    Rating: {fileID: 2100000, guid: a0e07bcaabcccc64e97cb4780660a285, type: 2}
+  customVisualData:
+    BasicAlertPrefab: {fileID: 4680219301758471209, guid: 3d25897f046ced64881a2f02122b3ca2,
+      type: 3}
+    CollectionCardPrefab: {fileID: 5261268826245059525, guid: 65f10275e3b3e1e4b820635404878b7c,
+      type: 3}
+    BasicDragPrefab: {fileID: 1859156428117729340, guid: c2e410b94a51dd3459c5090d40f02db9,
+      type: 3}
+    BasicWindowPrefab: {fileID: 7083815941361899078, guid: b050a5e1bdfee7746aa2f4fe4a6dfc5b,
+      type: 3}
+    InfoWindowPrefab: {fileID: 5971775268438771447, guid: e8970f412cbdc4b4a904408cf37d41e1,
+      type: 3}
+    StatsContentPrefab: {fileID: 6955164108701278767, guid: 760016df209b5bd40911d262758074a2,
+      type: 3}
+    StatsItemPrefab: {fileID: 5016013832880054457, guid: 0fecfdf9c7a78eb42ba7d6316f787bd6,
+      type: 3}
+    CardAchievementsContentPrefab: {fileID: 385477997439875062, guid: 806b2a96f7909ab488d34623e14bdac8,
+      type: 3}
+    CardDescriptionContentPrefab: {fileID: 8682265337760869002, guid: ee8d6bcc0027ed247a18812c4230c3ae,
+      type: 3}
+    UnitTimerPrefab: {fileID: 7110334542518914786, guid: 42512f6069e05794f81078654b5174f4,
+      type: 3}
+    SpendManaPrefab: {fileID: 5308485634734732690, guid: fc44936422de16f46b6e54b7d1d4cdd1,
+      type: 3}
+    PopupAlertPrefab: {fileID: 5190336330831957880, guid: fa3d70d45366e04448d685ff6b7a9151,
+      type: 3}
+    DefaultFont: {fileID: 0}
+    DefaultButtonImage: {fileID: 21300000, guid: cc33f1690311c5342b19fcb22a0cbdad,
+      type: 3}
+    SliderContent:
+      background: {fileID: 21300000, guid: 26c4319868d74374d8e0c3a69ac834f0, type: 3}
+      slider: {fileID: 21300000, guid: 878773be131047e47a4ea1575ef1103f, type: 3}
+      cover: {fileID: 21300000, guid: 4e7cfed15c9f20746993968495d4b9cc, type: 3}
+  Heroes:
+  - id: 1
+    MenuModelPrefab: {fileID: 7241659057880949322, guid: 3f6767822371d5e4cb824428487539e8,
+      type: 3}
+    HeroListIcon: {fileID: 21300000, guid: 935ee4d13187d4d4f82d0afedcce9bcf, type: 3}
+    StartBattleIcon: {fileID: 21300000, guid: 935ee4d13187d4d4f82d0afedcce9bcf, type: 3}
+    ArenaPrefab: {fileID: 6962749293751772824, guid: 85fb56d1bfef34a90888439f22aeda96,
+      type: 3}
+  - id: 2
+    MenuModelPrefab: {fileID: 2840562847838560383, guid: c4eb20d413351ae488d2be49bbec494b,
+      type: 3}
+    HeroListIcon: {fileID: 21300000, guid: b24677d2554de9944a91fb442cb889f9, type: 3}
+    StartBattleIcon: {fileID: 21300000, guid: b24677d2554de9944a91fb442cb889f9, type: 3}
+    ArenaPrefab: {fileID: 2124074861766594751, guid: 611b67f073d20415790ed91246305763,
+      type: 3}
+  - id: 3
+    MenuModelPrefab: {fileID: 8720583001994121146, guid: 9590a759b7a8fa146a9379174aacd4fc,
+      type: 3}
+    HeroListIcon: {fileID: 21300000, guid: 8c173c75c3927d04aabca177af8cd433, type: 3}
+    StartBattleIcon: {fileID: 21300000, guid: 8c173c75c3927d04aabca177af8cd433, type: 3}
+    ArenaPrefab: {fileID: 3333795193311112945, guid: 502d1076e8efa40db9dafad1a03b1760,
+      type: 3}
+  - id: 6
+    MenuModelPrefab: {fileID: 7814381054951111141, guid: 50d1df4005159d9429f7f193c6ffbd8a,
+      type: 3}
+    HeroListIcon: {fileID: 21300000, guid: 1f18dfeb015767246bdc473c4071fa65, type: 3}
+    StartBattleIcon: {fileID: 21300000, guid: 1f18dfeb015767246bdc473c4071fa65, type: 3}
+    ArenaPrefab: {fileID: 5887613323237348345, guid: 9c0d3bd3f97a04c00b01c62dd669f9d1,
+      type: 3}
+  - id: 17
+    MenuModelPrefab: {fileID: 6526022868425492826, guid: 55fb841d549a785439b91af164ab9721,
+      type: 3}
+    HeroListIcon: {fileID: 21300000, guid: a27bb722c7d99b44287674859b4edbcc, type: 3}
+    StartBattleIcon: {fileID: 21300000, guid: a27bb722c7d99b44287674859b4edbcc, type: 3}
+    ArenaPrefab: {fileID: 2769774556026473440, guid: 6bfdcd67504e4480da2f54b5141083ef,
+      type: 3}
+  - id: 18
+    MenuModelPrefab: {fileID: 433439113425301544, guid: 07108775800b9cf46b67b0023f26ca91,
+      type: 3}
+    HeroListIcon: {fileID: 21300000, guid: ef83fdd23ba8fad42b75f24b03b75eb9, type: 3}
+    StartBattleIcon: {fileID: 21300000, guid: ef83fdd23ba8fad42b75f24b03b75eb9, type: 3}
+    ArenaPrefab: {fileID: 2701143020934951416, guid: 9b5026bd8665143649f3167164be88d4,
+      type: 3}
+  - id: 4
+    MenuModelPrefab: {fileID: 8761553675052432340, guid: a3c2e44ad484ede4ea72bba682378ab6,
+      type: 3}
+    HeroListIcon: {fileID: 21300000, guid: 9a42f06e5d5aa7449b4573318fa1866e, type: 3}
+    StartBattleIcon: {fileID: 21300000, guid: 9a42f06e5d5aa7449b4573318fa1866e, type: 3}
+    ArenaPrefab: {fileID: 3773247485531114449, guid: be656e901b2dd450699488e5c7cc40e5,
+      type: 3}
+  - id: 15
+    MenuModelPrefab: {fileID: 4464799454765922865, guid: 7c6f6f8ae28632c43bd2009dcb44bfbd,
+      type: 3}
+    HeroListIcon: {fileID: 21300000, guid: 98d4ce57143a755409221fed1c2fd2dc, type: 3}
+    StartBattleIcon: {fileID: 21300000, guid: 98d4ce57143a755409221fed1c2fd2dc, type: 3}
+    ArenaPrefab: {fileID: 867422437724987451, guid: 00b056fddc3c24d41b6ed9ecc2928206,
+      type: 3}
+  - id: 16
+    MenuModelPrefab: {fileID: 3187318641223418090, guid: 3077e66cd580ef14ab012302defeeaf3,
+      type: 3}
+    HeroListIcon: {fileID: 21300000, guid: 5f21bfe5eabb67143983cd26945ada78, type: 3}
+    StartBattleIcon: {fileID: 21300000, guid: 5f21bfe5eabb67143983cd26945ada78, type: 3}
+    ArenaPrefab: {fileID: 6626298784815480323, guid: c99a3519da7c04140841532189cabd3a,
+      type: 3}
+  - id: 7
+    MenuModelPrefab: {fileID: 6830425921162920213, guid: c20ff4f01bb204844a9d047797a5355e,
+      type: 3}
+    HeroListIcon: {fileID: 21300000, guid: 78009e2f339b8d745b7f225b3ba18086, type: 3}
+    StartBattleIcon: {fileID: 21300000, guid: 78009e2f339b8d745b7f225b3ba18086, type: 3}
+    ArenaPrefab: {fileID: 2626412508559219256, guid: 0d0b3d2cb6cf24bd597936502a7a7d85,
+      type: 3}
+  MissionHeroes:
+  - id: 19
+    MenuModelPrefab: {fileID: 0}
+    HeroListIcon: {fileID: 0}
+    StartBattleIcon: {fileID: 21300000, guid: 935ee4d13187d4d4f82d0afedcce9bcf, type: 3}
+    ArenaPrefab: {fileID: 0}
+  - id: 20
+    MenuModelPrefab: {fileID: 0}
+    HeroListIcon: {fileID: 0}
+    StartBattleIcon: {fileID: 21300000, guid: b24677d2554de9944a91fb442cb889f9, type: 3}
+    ArenaPrefab: {fileID: 0}
+  - id: 28
+    MenuModelPrefab: {fileID: 0}
+    HeroListIcon: {fileID: 0}
+    StartBattleIcon: {fileID: 21300000, guid: 78009e2f339b8d745b7f225b3ba18086, type: 3}
+    ArenaPrefab: {fileID: 0}
+  - id: 27
+    MenuModelPrefab: {fileID: 0}
+    HeroListIcon: {fileID: 0}
+    StartBattleIcon: {fileID: 21300000, guid: 8c173c75c3927d04aabca177af8cd433, type: 3}
+    ArenaPrefab: {fileID: 0}
+  Arenas:
+  - id: 1
+    MenuPrefab: {fileID: 4323850352960750928, guid: 5a2225cdfc9d1a54998aa8548f8e9859,
+      type: 3}
+    TitleImage: {fileID: 21300000, guid: 1c55dfc15e06f46c694780650e4fbd9d, type: 3}
+  - id: 2
+    MenuPrefab: {fileID: 9064379106228339697, guid: 4162e8489b2b5734cb878ac89ec68c7d,
+      type: 3}
+    TitleImage: {fileID: 21300000, guid: 75e77804a82de42148008652844ddd8f, type: 3}
+  - id: 3
+    MenuPrefab: {fileID: 8369701331652879299, guid: 314dcb8c01cef9342b1a8cfdca38f801,
+      type: 3}
+    TitleImage: {fileID: 21300000, guid: ef2bebdf5c6da4c8e8e33a9fcdd31062, type: 3}
+  - id: 4
+    MenuPrefab: {fileID: 5689631292574902254, guid: adde87c7fb23dae43940c495d71e6901,
+      type: 3}
+    TitleImage: {fileID: 21300000, guid: 2b1f6e6c98c8544f28f568e7893cea5a, type: 3}
+  - id: 5
+    MenuPrefab: {fileID: 7016667217897666911, guid: 975213239f0db434d9f1b7b434c29354,
+      type: 3}
+    TitleImage: {fileID: 21300000, guid: c9c5d3b9f1e1b4065a60ff9fcd0d4863, type: 3}
+  - id: 6
+    MenuPrefab: {fileID: 4352983008763451659, guid: b8aafb4809af80c40969c63c2ae606dc,
+      type: 3}
+    TitleImage: {fileID: 0}
+  TouchPrefab: {fileID: 7734574293416748493, guid: c98f86d4038dfc548a1bc558f732ed4a,
+    type: 3}
+  rarityColors:
+    common:
+      serializedVersion: 2
+      rgba: 4292597939
+    rare:
+      serializedVersion: 2
+      rgba: 4294939270
+    epic:
+      serializedVersion: 2
+      rgba: 4294917567
+    legendary:
+      serializedVersion: 2
+      rgba: 4281379579
+  glowStates:
+    update:
+      serializedVersion: 2
+      rgba: 4283826005
+  CurrenciesSprites:
+  - sprite: {fileID: 21300000, guid: f17c388185daf2242bff5d2c5fa6e943, type: 3}
+    type: 2
+  - sprite: {fileID: 21300000, guid: 7aa407b30a426624f8537ec9865ba78d, type: 3}
+    type: 1
+  - sprite: {fileID: 21300000, guid: e94ed0ac68508a24789b662615fa90c9, type: 3}
+    type: 3
+  - sprite: {fileID: 21300000, guid: bd5f2118fb237d14f8a6feda827cb7b6, type: 3}
+    type: 4
+  - sprite: {fileID: 21300000, guid: af79ff63797f12a40a5f4a945bd699aa, type: 3}
+    type: 5
+  CardsMiniRaritySprites:
+  - sprite: {fileID: 21300000, guid: 051a267bd85b1b94b99281b77f4958fa, type: 3}
+    rarity: 0
+  - sprite: {fileID: 21300000, guid: ad8bad0d893ae674a86cb047021e5c0e, type: 3}
+    rarity: 1
+  - sprite: {fileID: 21300000, guid: f5811cda620d77b49a9ee889a1c0c98f, type: 3}
+    rarity: 2
+  - sprite: {fileID: 21300000, guid: 709174cb3167bfe4995632a0c578dbbd, type: 3}
+    rarity: 3
+  listIcon:
+  - name: DarkBlue_lvl3_
+    sprite: {fileID: 21300000, guid: 7fbb8ce620e23ff418a55fda8eaef97d, type: 3}
+  - name: Ferrum_lvl2_
+    sprite: {fileID: 21300000, guid: 0855fd9c620fb9747a9d9da0fdf7923c, type: 3}
+  - name: Legendary_lvl2_
+    sprite: {fileID: 21300000, guid: b3df2e4d92894fd4e850b99b5f0f9761, type: 3}
+  - name: Mystic
+    sprite: {fileID: 21300000, guid: 86635db56cdf2cc459ae960e0509aee5, type: 3}
+  - name: Mystic_lvl2_
+    sprite: {fileID: 21300000, guid: afafcbe0c8965be429e24710978c534b, type: 3}
+  - name: Purple_
+    sprite: {fileID: 21300000, guid: 7172d71944579b1488843f795a6acc48, type: 3}
